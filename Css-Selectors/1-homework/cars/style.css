@@ -1,0 +1,33 @@
+body {
+	background-color: rgba(255, 255, 128, 0.5);
+}
+img {
+	height: 200px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.header-tag {
+	text-decoration: none;
+	font-size: 5em;
+}
+
+.header-tag:hover {
+	color: red;
+}
+
+ul {
+	list-style-position: inside;
+	border: 1px solid red;
+}
+
+ol li::marker {
+	color: blue;
+	font-size: 1.2em;
+}
+
+li > div {
+	margin-bottom: 10px;
+}
