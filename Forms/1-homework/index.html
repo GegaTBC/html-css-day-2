@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Homework #1</title>
+	</head>
+	<body>
+		<form action="#">
+			<span style="color: #e32">&#42;</span
+			><label for="ftel">Phone:</label>
+			<input
+				type="tel"
+				id="ftel"
+				required
+				pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+			/>
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="femail">E-mail:</label>
+			<input type="email" id="femail" required />
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="fpassword:">Password:</label>
+			<input type="password" id="fpassword" required />
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="fcpassword">Confirm Password:</label>
+			<input type="password" id="fcpassword" required />
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="fnickname">Nickname:</label>
+			<input type="text" id="fnickname" required />
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="habitual-residence"
+				>Habitual Residence:</label
+			>
+			<select id="habitual-residence" name="Habitual Residence">
+				<option value="1">
+					Zhejiang / Hangzhou / West Lake
+				</option>
+				<option value="2">Georgia</option>
+				<option value="3">Tokyo</option>
+				<option value="4">Russia</option>
+			</select>
+			<br />
+			<br />
+			<br />
+			<span style="color: #e32">&#42;</span
+			><label for="fwebsite">Website:</label>
+			<input type="url" id="fwebsite" required />
+			<br />
+			<br />
+			<br />
+			<input
+				type="checkbox"
+				id="agreement"
+				name="agreement"
+				value="Bike"
+			/>
+			<label id="agreement-label" for="agreement">
+				I have read the
+				<a href="https://www.google.com/">agreement</a></label
+			>
+			<br />
+			<br />
+			<br />
+			<input type="submit" id="button" value="Register" />
+		</form>
+	</body>
+</html>

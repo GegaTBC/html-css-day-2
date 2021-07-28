@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+form {
+	display: inline-block;
+	text-align: right;
+}
+input {
+	width: 400px;
+	height: 30px;
+}
+select {
+	width: 407px;
+	height: 37px;
+}
+#agreement {
+	width: 17px;
+	height: 17px;
+}
+
+#agreement-label {
+	margin-right: 219px;
+}
+
+#button {
+	color: white;
+	background-color: #1890ff;
+	border: transparent;
+	border-radius: 5%;
+	width: 82px;
+	height: 33px;
+	margin-right: 326px;
+}
